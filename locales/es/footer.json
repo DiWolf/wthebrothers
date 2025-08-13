@@ -1,0 +1,27 @@
+{
+  "footer": {
+    "summary": "Transporte de mercancías con servicio de calidad, soluciones específicas y monitoreo 24/7. Entregas en tiempo y forma, con unidad de apoyo ante imprevistos.",
+    "navigation_title": "Navegación",
+    "services_title": "Servicios",
+    "units_title": "Nuestras Unidades",
+    "gallery_note": "Vigilancia y seguimiento 24 horas.",
+    "navigation": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "fleet": "Unidades",
+      "gallery": "Galería",
+      "contact": "Contacto"
+    },
+    "services_list": {
+      "transport": "Transporte de mercancías",
+      "containers": "Carga contenerizada",
+      "loose": "Carga suelta",
+      "oversize": "Exceso de dimensiones",
+      "yard": "Patio de desconsolidación",
+      "monitoring": "Monitoreo 24/7",
+      "support": "Unidad de apoyo mecánico"
+    },
+    "copyright": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "home": "首页",
+  "about": "关于我们",
+  "services": "服务",
+  "fleet": "车队",
+  "gallery": "画廊",
+  "contact": "联系我们",
+  "quote": "获取报价",
+  "welcome_message": "欢迎来到 The Brothers Logistic – 高质量、可靠的货运服务",
+  "email": "thebrotherslogistic@gmail.com",
+  "phone": "+52 (753) 130 8284 / +52 (753) 104 2916",
+  "lang": {
+    "label": "语言",
+    "es": "西班牙语",
+    "en": "英语",
+    "zh": "中文"
+  }
+}

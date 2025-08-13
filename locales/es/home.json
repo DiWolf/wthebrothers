@@ -1,0 +1,27 @@
+{
+  
+    "banner": {
+      "welcome": "Bienvenido a",
+      "company": "The Brothers Logistic",
+      "title": "Transporte de mercancías confiable, seguro y puntual",
+      "description": "Ofrecemos soluciones específicas para tu logística y distribución, con unidades en óptimas condiciones, monitoreo 24/7 y personal capacitado. Entregamos tu mercancía en tiempo y forma, incluso ante imprevistos mecánicos.",
+      "cta": "Solicitar Cotización"
+    },
+    "about": {
+      "heading": "Sobre Nosotros",
+      "title": "Transporte de mercancías confiable, seguro y puntual",
+      "paragraph1": "En The Brothers Logistic ofrecemos soluciones específicas para la logística y distribución de nuestros clientes. Contamos con unidades en óptimas condiciones, monitoreo 24/7 y personal capacitado para garantizar entregas en tiempo y forma.",
+      "paragraph2": "Nuestro compromiso es brindar un servicio de calidad, adaptándonos a las necesidades de cada cliente y respondiendo de forma efectiva ante cualquier imprevisto.",
+      "features": {
+        "specialized_transport": {
+          "title": "Transporte Especializado",
+          "description": "Carga contenerizada, carga suelta y de exceso de dimensiones, con monitoreo constante."
+        },
+        "local_regional": {
+          "title": "Atención Local y Regional",
+          "description": "Servicios adaptados a las rutas y necesidades de la región, con unidad de apoyo ante fallas mecánicas."
+        }
+      }
+    }
+  
+}

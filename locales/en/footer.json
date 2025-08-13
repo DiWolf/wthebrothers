@@ -1,0 +1,27 @@
+{
+  "footer": {
+    "summary": "Freight transportation with quality service, tailored solutions, and 24/7 monitoring. On-time deliveries with backup units for unforeseen events.",
+    "navigation_title": "Navigation",
+    "services_title": "Services",
+    "units_title": "Our Fleet",
+    "gallery_note": "24-hour surveillance and tracking.",
+    "navigation": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "fleet": "Fleet",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "services_list": {
+      "transport": "Freight Transportation",
+      "containers": "Container Cargo",
+      "loose": "Loose Cargo",
+      "oversize": "Oversized Cargo",
+      "yard": "Deconsolidation Yard",
+      "monitoring": "24/7 Monitoring",
+      "support": "Mechanical Support Unit"
+    },
+    "copyright": "All rights reserved."
+  }
+}

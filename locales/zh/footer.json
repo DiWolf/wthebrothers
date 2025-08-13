@@ -1,0 +1,27 @@
+{
+  "footer": {
+    "summary": "提供高质量服务的货运运输，定制化解决方案及24小时监控。准时交付，并配备备用车辆应对突发情况。",
+    "navigation_title": "导航",
+    "services_title": "服务",
+    "units_title": "我们的车辆",
+    "gallery_note": "24小时监控与跟踪。",
+    "navigation": {
+      "home": "首页",
+      "about": "关于我们",
+      "services": "服务",
+      "fleet": "车队",
+      "gallery": "画廊",
+      "contact": "联系我们"
+    },
+    "services_list": {
+      "transport": "货运运输",
+      "containers": "集装箱货物",
+      "loose": "散货",
+      "oversize": "超尺寸货物",
+      "yard": "拆箱场",
+      "monitoring": "24/7 监控",
+      "support": "机械支援车辆"
+    },
+    "copyright": "版权所有。"
+  }
+}

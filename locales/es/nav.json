@@ -1,0 +1,18 @@
+{
+  "home": "Inicio",
+  "about": "Nosotros",
+  "services": "Servicios",
+  "fleet": "Unidades",
+  "gallery": "Galería",
+  "contact": "Contacto",
+  "quote": "Cotizar",
+  "welcome_message": "Bienvenido a The Brothers Logistic – Transporte de mercancías con calidad y confianza",
+  "email": "thebrotherslogistic@gmail.com",
+  "phone": "+52 (753) 130 8284 / +52 (753) 104 2916",
+  "lang": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English",
+    "zh": "中文"
+  }
+}

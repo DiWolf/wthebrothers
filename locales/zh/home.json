@@ -1,0 +1,27 @@
+{
+  
+    "banner": {
+      "welcome": "欢迎来到",
+      "company": "The Brothers Logistic",
+      "title": "可靠、安全、准时的货运运输",
+      "description": "我们为您的物流和配送提供定制化解决方案，配备状况良好的车辆、24小时监控和专业人员。即使发生机械故障，我们也能准时交付您的货物。",
+      "cta": "申请报价"
+    },
+    "about": {
+      "heading": "关于我们",
+      "title": "可靠、安全、准时的货运运输",
+      "paragraph1": "在 The Brothers Logistic，我们为客户的物流和配送提供定制化解决方案。我们拥有状况良好的车辆、24小时监控和训练有素的员工，确保准时交付。",
+      "paragraph2": "我们的承诺是提供高质量的服务，适应每位客户的需求，并能有效应对任何突发情况。",
+      "features": {
+        "specialized_transport": {
+          "title": "专业运输",
+          "description": "集装箱货物、散货和超尺寸货物，持续监控。"
+        },
+        "local_regional": {
+          "title": "本地与区域服务",
+          "description": "服务适应区域路线和需求，配备备用车辆应对机械故障。"
+        }
+      }
+    }
+  
+}

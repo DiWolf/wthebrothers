@@ -1,0 +1,27 @@
+{
+  
+    "banner": {
+      "welcome": "Welcome to",
+      "company": "The Brothers Logistic",
+      "title": "Reliable, Safe, and On-Time Freight Transportation",
+      "description": "We offer tailored solutions for your logistics and distribution needs, with well-maintained units, 24/7 monitoring, and trained personnel. We deliver your cargo on time, even in the event of mechanical issues.",
+      "cta": "Request a Quote"
+    },
+    "about": {
+      "heading": "About Us",
+      "title": "Reliable, Safe, and On-Time Freight Transportation",
+      "paragraph1": "At The Brothers Logistic, we provide tailored solutions for our clients' logistics and distribution. We have well-maintained units, 24/7 monitoring, and trained staff to ensure on-time deliveries.",
+      "paragraph2": "Our commitment is to provide quality service, adapting to each client's needs and responding effectively to any unforeseen events.",
+      "features": {
+        "specialized_transport": {
+          "title": "Specialized Transport",
+          "description": "Containerized cargo, loose cargo, and oversized cargo, with constant monitoring."
+        },
+        "local_regional": {
+          "title": "Local and Regional Service",
+          "description": "Services adapted to regional routes and needs, with backup units in case of mechanical failures."
+        }
+      }
+    }
+  
+}

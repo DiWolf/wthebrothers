@@ -1,0 +1,18 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "fleet": "Fleet",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "quote": "Get a Quote",
+  "welcome_message": "Welcome to The Brothers Logistic – Quality and Reliable Freight Transportation",
+  "email": "thebrotherslogistic@gmail.com",
+  "phone": "+52 (753) 130 8284 / +52 (753) 104 2916",
+  "lang": {
+    "label": "Language",
+    "es": "Spanish",
+    "en": "English",
+    "zh": "Chinese"
+  }
+}

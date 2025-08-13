@@ -1,0 +1,124 @@
+<!-- Footer Area Start -->
+<footer id="footer_area" class="footer">
+    <div class="container">
+        <div
+            class="row">
+            <!-- Marca + resumen -->
+            <div class="col-lg-4 col-md-12">
+                <div class="footer_wedget">
+                    <a href="index.html" class="footer__brand d-inline-block">
+                        <img src="/public/img/logo_white.png" alt="{{ site.name }}" style="max-height: 56px;">
+                    </a>
+                    <p class="mt-3">
+                        {{ __ ('footer.footer.summary')}}
+                    </p>
+                    <!-- Datos de contacto reales -->
+                    <ul class="list-unstyled footer__contact mt-3">
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:{{ site.phone1 | replace(' ', '') }}">{{ site.phone1 }}</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:{{ site.phone2 | replace(' ', '') }}">{{ site.phone2 }}</a>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            <a href="mailto:{{ site.email1 }}">{{ site.email1 }}</a>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            <a href="mailto:{{ site.email2 }}">{{ site.email2 }}</a>
+                        </li>
+                    </ul>
+                    <!-- Social (deja #! si aún no hay perfiles oficiales) -->
+                    <div class="footer_social_icon mt-3">
+                        <a href="#!" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#!" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#!" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Navegación -->
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="footer_wedget footer_navigation">
+                    <h4>{{__('footer.footer.navigation_title')}}</h4>
+                    <ul>
+                        <li><a href="index.html">{{__('footer.footer.navigation.home')}}</a></li>
+                        <li><a href="nosotros.html">{{__('footer.footer.navigation.about')}}</a></li>
+                        <li><a href="servicios.html">{{__('footer.footer.navigation.services')}}</a></li>
+                        <li><a href="unidades.html">{{__('footer.footer.navigation.fleet')}}</a></li>
+                        <li><a href="galeria.html">{{__('footer.footer.navigation.gallery')}}</a></li>
+                        <li><a href="contacto.html">{{__('footer.footer.navigation.contact')}}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Servicios reales -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_wedget footer_navigation">
+                    <h4>{{__('footer.footer.services_title')}}</h4>
+                    <ul>
+                        <li><a href="servicios.html#transporte">{{__('footer.footer.services_list.transport')}}</a></li>
+                        <li><a href="servicios.html#contenedores">{{__('footer.footer.services_list.containers')}}</a></li>
+                        <li><a href="servicios.html#suelta">{{__('footer.footer.services_list.loose')}}</a></li>
+                        <li><a href="servicios.html#exceso">{{__('footer.footer.services_list.oversize')}}</a></li>
+                        <li><a href="servicios.html#patio">{{__('footer.footer.services_list.yard')}}</a></li>
+                        <li><a href="servicios.html#monitoreo">{{__('footer.footer.services_list.monitoring')}}</a></li>
+                        <li><a href="servicios.html#apoyo">{{__('footer.footer.services_list.support')}}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mini galería / Unidades -->
+            <div class="col-lg-3 col-md-12">
+                <div class="footer_wedget">
+                    <h4>{{__('footer.footer.units_title')}}</h4>
+                    <div class="footer_gallery_area">
+                        <div class="footer_gallery_img">
+                            <a href="unidades.html#kenworth-t680-2015" title="Kenworth T680 2015">
+                                <img src="/public/img/fleet/kenworth-t680-2015.jpg" alt="Kenworth T680 2015">
+                            </a>
+                        </div>
+                        <div class="footer_gallery_img">
+                            <a href="unidades.html#international-2017" title="International 2017">
+                                <img src="/public/img/fleet/international-2017.jpg" alt="International 2017">
+                            </a>
+                        </div>
+                        <div class="footer_gallery_img">
+                            <a href="unidades.html#freightliner-2013" title="Freightliner 2013">
+                                <img src="/public/img/fleet/freightliner-2013.jpg" alt="Freightliner 2013">
+                            </a>
+                        </div>
+                        <div class="footer_gallery_img">
+                            <a href="galeria.html#patio" title="Patio de desconsolidación">
+                                <img src="/public/img/patio.jpg" alt="Patio de desconsolidación y vigilancia 24 horas">
+                            </a>
+                        </div>
+                    </div>
+                    <small class="d-block mt-2 text-muted">{{__('footer.footer.gallery_note')}}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copy -->
+<div id="copy_right">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copy-right-area">
+                    <p>
+                        &copy; {{ year }}
+                        <span>{{ site.name }}</span>. {{__('footer.footer.copyright')}}.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer Area End -->

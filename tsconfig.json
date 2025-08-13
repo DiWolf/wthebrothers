@@ -32,22 +32,18 @@
     // "moduleResolution": "node10",                     /* Specify how TypeScript looks up a file from a given module specifier. */
     "baseUrl": "./" /* Specify the base directory to resolve non-relative module names. */,
     "paths": {
-      "@controllers/*": ["src/controllers/*"],
-      "@interfaces/*": ["src/interfaces/*"],
-      "@models/*": ["src/models/*"],
-      "@routes/*": ["src/routes/*"],
       "@config/*": ["src/config/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@routes/*": ["src/routes/*"],
       "@services/*": ["src/services/*"],
-      "@views/*": ["src/views/*"],
-      "@middleware/*": ["src/middleware/*"],
-      "@repositories/*": ["src/repositories/*"], 
-      "@utils/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"],
+      "@views/*": ["src/views/*"]
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     "typeRoots": [
-      
       "src/types",
-      "./node_modules/@types",
+      "./node_modules/@types"
     ] /* Specify multiple folders that act like './node_modules/@types'. */,
     // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */
     // "allowUmdGlobalAccess": true,                     /* Allow accessing UMD globals from modules. */
@@ -109,8 +105,8 @@
     // "noImplicitThis": true,                           /* Enable error reporting when 'this' is given the type 'any'. */
     // "useUnknownInCatchVariables": true,               /* Default catch clause variables as 'unknown' instead of 'any'. */
     // "alwaysStrict": true,                             /* Ensure 'use strict' is always emitted. */
-     // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
-     // "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
+    // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+    // "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
     // "exactOptionalPropertyTypes": true,               /* Interpret optional property types as written, rather than adding 'undefined'. */
     // "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
     // "noFallthroughCasesInSwitch": true,               /* Enable error reporting for fallthrough cases in switch statements. */
@@ -122,14 +118,9 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
-   //  "types": ["node"] /* Specify type package names to be included without being referenced in a source file. */,
-    
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    //  "types": ["node"] /* Specify type package names to be included without being referenced in a source file. */,
   },
-   "include": [
-    "src/**/*.ts",
-    "src/types/**/*.d.ts"
-  ],
+  "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
   "exclude": ["node_modules"]
-  
 }
