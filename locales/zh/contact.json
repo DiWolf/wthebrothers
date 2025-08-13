@@ -1,0 +1,39 @@
+{
+  
+    "banner": {
+      "title": "联系我们",
+      "breadcrumb": { "home": "首页", "current": "联系我们" }
+    },
+    "info": {
+      "location": { "title": "位置", "value": "" },
+      "phones": { "title": "联系电话" },
+      "emails": { "title": "电子邮箱" }
+    },
+    "form": {
+      "title": "给我们留言",
+      "placeholders": {
+        "first_name": "名",
+        "last_name": "姓",
+        "email": "电子邮箱",
+        "message": "请输入您的留言"
+      },
+      "subject": {
+        "placeholder": "选择主题",
+        "options": {
+          "carga_contenedorizada": "集装箱货运",
+          "carga_suelta": "散货运输",
+          "carga_exceso_dimensiones": "超尺寸货物运输",
+          "monitoreo_24h": "24小时监控服务",
+          "patio_desconsolidacion": "拆箱堆场与24小时安保",
+          "unidades_respaldo": "机械故障支援车辆",
+          "otro": "其他主题"
+        }
+      },
+      "submit": "发送",
+      "alerts": {
+        "success": "谢谢！您的留言已发送。",
+        "error": "未能发送消息，请重试。"
+      }
+    }
+  
+}

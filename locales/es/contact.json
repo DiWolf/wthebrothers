@@ -1,0 +1,39 @@
+{
+  
+    "banner": {
+      "title": "Contáctanos",
+      "breadcrumb": { "home": "Inicio", "current": "Contáctanos" }
+    },
+    "info": {
+      "location": { "title": "Ubicación", "value": "" },
+      "phones": { "title": "Teléfonos de contacto" },
+      "emails": { "title": "Correos electrónicos" }
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "placeholders": {
+        "first_name": "Nombre",
+        "last_name": "Apellido",
+        "email": "Correo electrónico",
+        "message": "Escribe tu mensaje"
+      },
+      "subject": {
+        "placeholder": "Selecciona un asunto",
+        "options": {
+          "carga_contenedorizada": "Transporte de carga contenerizada",
+          "carga_suelta": "Transporte de carga suelta",
+          "carga_exceso_dimensiones": "Transporte de carga de exceso de dimensiones",
+          "monitoreo_24h": "Servicio de monitoreo 24 horas",
+          "patio_desconsolidacion": "Patio de desconsolidación y vigilancia 24 horas",
+          "unidades_respaldo": "Unidades de apoyo por fallas mecánicas",
+          "otro": "Otro asunto"
+        }
+      },
+      "submit": "Enviar",
+      "alerts": {
+        "success": "¡Gracias! Tu mensaje fue enviado.",
+        "error": "No se pudo enviar el mensaje. Intenta de nuevo."
+      }
+    }
+  }
+

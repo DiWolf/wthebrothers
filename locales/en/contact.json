@@ -1,0 +1,39 @@
+{
+  
+    "banner": {
+      "title": "Contact Us",
+      "breadcrumb": { "home": "Home", "current": "Contact Us" }
+    },
+    "info": {
+      "location": { "title": "Location", "value": "" },
+      "phones": { "title": "Phone Numbers" },
+      "emails": { "title": "Email Addresses" }
+    },
+    "form": {
+      "title": "Send us a message",
+      "placeholders": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email",
+        "message": "Write your message"
+      },
+      "subject": {
+        "placeholder": "Select a subject",
+        "options": {
+          "carga_contenedorizada": "Containerized cargo transport",
+          "carga_suelta": "Loose cargo transport",
+          "carga_exceso_dimensiones": "Oversized cargo transport",
+          "monitoreo_24h": "24/7 monitoring service",
+          "patio_desconsolidacion": "Deconsolidation yard & 24/7 security",
+          "unidades_respaldo": "Backup units for mechanical failures",
+          "otro": "Other subject"
+        }
+      },
+      "submit": "Send",
+      "alerts": {
+        "success": "Thanks! Your message was sent.",
+        "error": "We couldn't send your message. Please try again."
+      }
+    }
+  }
+

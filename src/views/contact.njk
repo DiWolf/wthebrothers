@@ -1,0 +1,152 @@
+{% extends "templates/portal.njk" %}
+{% block content %}
+    <!-- Inner Banner Area Strat -->
+    <section id="inner_area_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner_banner_text">
+                        <h2>{{ __('contact.banner.title') }}</h2>
+                        <ul>
+                            <li>
+                                <a href="/">{{ __('contact.banner.breadcrumb.home') }}</a>
+                            </li>
+                            <li>></li>
+                            <li class="active">{{ __('contact.banner.breadcrumb.current') }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Banner Area End -->
+    <!-- Contact Area Strat -->
+    <section id="contact_area_main">
+        <div class="container">
+            <div class="contact_form_info_area">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="contact_info_wrapper contact_info_flex">
+                            <div class="contact_item">
+                                <h5>{{__('contact.info.location.title')}}</h5>
+                                <p></p>
+                            </div>
+                            <div class="contact_item">
+                                <h5>{{__('contact.info.phones.title')}}</h5>
+                                <p>7531308284 & 7531042916</p>
+                            </div>
+                            <div class="contact_item">
+                                <h5>{{__('contact.info.emails.title')}}</h5>
+                                <p>thebrotherslogistic@gmail.com</p>
+                                <p>rauul-1@hotmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="contact_maps_right contact_info_wrapper">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.6962663570607!2d89.56355961427838!3d22.813715829827952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff901efac79b59%3A0x5be01a1bc0dc7eba!2sAnd+IT!5e0!3m2!1sen!2sbd!4v1557901943656!5m2!1sen!2sbd"
+                                allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact_form_main_two contact_info_wrapper">
+                            <h3>{{__('contact.form.title')}}</h3>
+                            <form id="contactForm" action="#!" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" id="firstName" name="firstName" class="form-control"  placeholder="{{ __('contact.form.placeholders.first_name') }}"></div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" id="lastName" name="lastName" class="form-control"  placeholder="{{ __('contact.form.placeholders.last_name') }}"></div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="email" id="email" name="email" class="form-control"  placeholder="{{ __('contact.form.placeholders.email') }}"></div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <select id="subject" name="subject" class="form-control">
+                                                            <option value="">{{__('contact.form.subject.placeholder')}}</option>
+                                                            <option value="carga_contenedorizada">{{__('contact.form.subject.options.carga_contenedorizada')}}</option>
+                                                            <option value="carga_suelta">{{__('contact.form.subject.options.carga_suelta')}}</option>
+                                                            <option value="carga_exceso_dimensiones">{{__('contact.form.subject.options.carga_exceso_dimensiones')}}</option>
+                                                            <option value="monitoreo_24h">{{__('contact.form.subject.options.monitoreo_24h')}}</option>
+                                                            <option value="patio_desconsolidacion">{{__('contact.form.subject.options.patio_desconsolidacion')}}</option>
+                                                            <option value="unidades_respaldo">{{__('contact.form.subject.options.unidades_respaldo')}}</option>
+                                                            <option value="otro">{{__('contact.form.subject.options.otro')}}</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="{{__('contact.form.placeholders.message')}}"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="contact_form_submit">
+                                                        <button type="submit" id="submitBtn" class="btn btn-theme">{{__('contact.form.submit')}}</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Contact Area End -->
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const form = document.getElementById('contactForm');
+                                    const btn = document.getElementById('submitBtn');
+                                    form.addEventListener('submit', async (e) => {
+                                        e.preventDefault();
+                                        btn.disabled = true;
+                                        const payload = {
+                                            firstName: document
+                                                .getElementById('firstName')
+                                                .value
+                                                .trim(),
+                                            lastName: document
+                                                .getElementById('lastName')
+                                                .value
+                                                .trim(),
+                                            email: document
+                                                .getElementById('email')
+                                                .value
+                                                .trim(),
+                                            subject: document
+                                                .getElementById('subject')
+                                                .value
+                                                .trim(),
+                                            message: document
+                                                .getElementById('message')
+                                                .value
+                                                .trim()
+                                        };
+                                        try {
+                                            const resp = await fetch('/api/contact', {
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json'
+                                                },
+                                                body: JSON.stringify(payload)
+                                            });
+                                            if (! resp.ok) 
+                                                throw new Error (`HTTP ${
+                                                    resp.status
+                                                }`);
+                                            
+                                            alert('{{ __("contact.form.alerts.success") }}');
+                                            form.reset();
+                                        } catch (err) {
+                                            console.error(err);
+                                             alert('{{ __("contact.form.alerts.error") }}');
+                                        } finally {
+                                            btn.disabled = false;
+                                        }
+                                    });
+                                });
+                            </script>
+                        {% endblock %}
