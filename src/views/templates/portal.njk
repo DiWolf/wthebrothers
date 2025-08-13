@@ -28,6 +28,35 @@
         <link
         rel="stylesheet" href="/public/assets/css/style.css"/> <!-- Responsive CSS -->
         <link rel="stylesheet" href="/public/assets/css/responsive.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet"/>
+        <script type="module">
+            import {createChat} from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+            createChat({
+                webhookUrl: 'https://dev.aurorati.mx/webhook/675166a6-9abc-4791-b5fe-bbff65db89a0/chat',
+                title: "Asesor The Brothers Logistic",
+                subtitle: "En línea",
+                initialMessages: [
+                    '¡Hola! 👋', '¿En qué puedo ayudarte?'
+                ],
+                defaultLanguage: 'es',
+                i18n: {
+                    en: {
+                        title: 'Hi there! 👋',
+                        subtitle: "Start a chat. We're here to help you 24/7.",
+                        footer: '',
+                        getStarted: 'New Conversation',
+                        inputPlaceholder: 'Type your question..'
+                    },
+                    es: {
+                        title: 'Asesor The Brothers Logistic',
+                        subtitle: "En línea.",
+                        footer: '',
+                        getStarted: 'Nueva conversación',
+                        inputPlaceholder: 'Ingresa tu duda..'
+                    }
+                }
+            });
+        </script>
         <title>The Brothers Logistic | Home 01</title>
         <link rel="icon" type="image/png" href="/public/assets/img/favicon.ico"/>
     </head>
