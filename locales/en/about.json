@@ -1,0 +1,32 @@
+{
+  "breadcrumb": {
+    "title": "About Us",
+    "home": "Home"
+  },
+  "about": {
+    "title": "Your strategic partner in logistics and transportation",
+    "subtitle": "More than moving goods, we build trust.",
+    "description1": "At The Brothers Logistic, we offer tailored logistics solutions to ensure your cargo arrives on time, safely, and in perfect condition. We stand out for our direct attention, quick response to unforeseen events, and a well-maintained fleet for any type of load: containerized, loose, or oversized.",
+    "description2": "Our commitment is clear: on-time deliveries, total security, and uninterrupted service — even if a mechanical failure occurs, we immediately send a backup unit to fulfill the agreement."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "items": [
+      "Provide high-quality transportation and logistics services tailored to each client's specific needs.",
+      "Maximize our clients’ investment value over the competition.",
+      "Ensure the safe and timely delivery of every shipment.",
+      "Respond immediately to any unforeseen circumstances.",
+      "Offer personalized service with trained and responsible staff."
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "items": [
+      "Be recognized as a reliable and adaptable logistics company.",
+      "Exceed customer expectations through continuous improvement.",
+      "Innovate in logistics solutions to maintain market preference.",
+      "Strengthen our fleet and capabilities for new challenges.",
+      "Build long-term business relationships based on trust."
+    ]
+  }
+}

@@ -69,7 +69,7 @@
                 border-radius: 18px;
                 overflow: hidden;
                 aspect-ratio: 4 / 3;
-                box-shadow: 0 6px 24px rgba(0, 0, 0, .08);
+                box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
                 transition: transform 0.25s ease, box-shadow 0.25s ease;
             }
             .gallery-img {
@@ -82,7 +82,7 @@
             }
             .gallery-item:hover {
                 transform: translateY(-2px);
-                box-shadow: 0 12px 32px rgba(0, 0, 0, .2);
+                box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
             }
             .gallery-item:hover .gallery-img {
                 transform: scale(1.07);
@@ -111,6 +111,43 @@
             }
             .gallery-item:hover .gallery-overlay {
                 opacity: 1;
+            }
+            .about_img {
+                overflow: hidden;
+                border-radius: 15px;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+                transition: transform 0.4s ease, box-shadow 0.4s ease;
+            }
+            .about_img img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: transform 0.4s ease;
+            }
+            .about_img:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+            }
+            .about_img:hover img {
+                transform: scale(1.05);
+            }
+            .home_three_about_img {
+                position: relative;
+                overflow: hidden;
+            }
+            .home_three_about_img img {
+                width: 85%; /* o 85% para más margen */
+                height: auto;
+                margin: 0 auto;
+                display: block;
+                border-radius: 8px; /* opcional, suaviza bordes */
+            }
+            .home_three_about_img::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+             
+                pointer-events: none;
             }
         </style>
         <title>The Brothers Logistic | Home 01</title>

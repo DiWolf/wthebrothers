@@ -1,0 +1,80 @@
+{% extends "templates/portal.njk" %}
+{% block content %}
+    <!-- Inner Banner Area Strat -->
+    <!-- Inner Banner Area Strat -->
+        <section id="inner_area_banner"> <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner_banner_text">
+                        <h2>{{ __('about.breadcrumb.title') }}</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">{{ __('about.breadcrumb.home') }}</a>
+                            </li>
+                            <li>></li>
+                            <li class="active">{{ __('about.breadcrumb.title') }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Banner Area End -->
+    <!-- Home About Area Start -->
+    <section id="home_about_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about_img">
+                        <img src="/public/assets/img/galeria/6.jpg" alt="Flota de The Brothers Logistic" class="about-image"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about_content">
+                            <div class="heading-left-border">
+                                <h2>{{ __('about.about.title') }}</h2>
+                            </div>
+                            <h3>{{ __('about.about.subtitle') }}</h3>
+                            <p>
+                                {{ __('about.about.description1') }}
+                            </p>
+                            <p>
+                                {{ __('about.about.description2') }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home About Area End -->
+        <!-- Our Mission Area Start -->
+        <section id="our_mission_vission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="our_mission_vission_area">
+                            <h2>{{ __('about.mission.title') }}</h2>
+                            {% set mission = __('about.mission') %}
+                            <ul>
+                                {% for item in mission.items %}
+                                    <li>{{ item }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="our_mission_vission_area">
+                              <h2>{{ __('about.vision.title') }}</h2>
+                            {% set vision = __('about.vision') %}
+                            <ul>
+                                {% for item in vision.items %}
+                                    <li>{{ item }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Mission Area End -->
+        <!-- Our Mission Area End -->
+    {% endblock %}

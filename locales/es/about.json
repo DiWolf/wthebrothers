@@ -1,0 +1,32 @@
+{
+  "breadcrumb": {
+    "title": "Sobre Nosotros",
+    "home": "Inicio"
+  },
+  "about": {
+    "title": "Tu socio estratégico en logística y transporte",
+    "subtitle": "Más que mover mercancías, construimos confianza.",
+    "description1": "En The Brothers Logistic ofrecemos soluciones logísticas personalizadas para que tu mercancía llegue a tiempo, segura y en perfectas condiciones. Nos distinguimos por nuestra atención directa, la rapidez de respuesta ante imprevistos y una flota en óptimas condiciones para cada tipo de carga: contenerizada, suelta o de exceso de dimensiones.",
+    "description2": "Nuestro compromiso es claro: entregas puntuales, seguridad total y servicio sin interrupciones, incluso si ocurre una falla mecánica — enviamos de inmediato una unidad de respaldo para cumplir con lo pactado."
+  },
+  "mission": {
+    "title": "Nuestra Misión",
+    "items": [
+      "Brindar un servicio de transporte y logística de calidad, adaptado a las necesidades específicas de cada cliente.",
+      "Maximizar el valor de la inversión de nuestros clientes frente a la competencia.",
+      "Garantizar la entrega segura y puntual de cada carga.",
+      "Responder de forma inmediata ante cualquier imprevisto.",
+      "Ofrecer atención personalizada con personal capacitado y responsable."
+    ]
+  },
+  "vision": {
+    "title": "Nuestra Visión",
+    "items": [
+      "Ser reconocidos como una empresa de logística confiable y adaptable.",
+      "Superar las expectativas del cliente mediante mejora continua.",
+      "Innovar en soluciones logísticas para mantener la preferencia del mercado.",
+      "Fortalecer nuestra flota y capacidades para nuevos retos.",
+      "Consolidar relaciones comerciales a largo plazo basadas en confianza."
+    ]
+  }
+}

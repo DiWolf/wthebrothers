@@ -1,0 +1,55 @@
+{
+  
+    "breadcrumb": {
+      "home": "首页",
+      "title": "画廊"
+    },
+    "heading": "我们的车队，您的物流解决方案",
+    "subheading": "了解为您的货物保驾护航的车辆。",
+    "description": "车况良好，适用于集装箱、散货及超限货物运输。24小时监控和机械备用，确保每次交付准时到达。",
+    "items": [
+      {
+        "image": "/public/assets/img/galeria/1.jpg",
+        "full": "/public/assets/img/galeria/1.jpg",
+        "title": "Kenworth T680 2015",
+        "caption": "院内干货车厢",
+        "alt": "Kenworth T680 2015 – 院内干货车厢"
+      },
+      {
+        "image": "/public/assets/img/galeria/2.jpg",
+        "full": "/public/assets/img/galeria/2.jpg",
+        "title": "International 2017",
+        "caption": "满载ONE集装箱",
+        "alt": "International 2017 – 满载ONE集装箱"
+      },
+      {
+        "image": "/public/assets/img/galeria/3.jpg",
+        "full": "/public/assets/img/galeria/3.jpg",
+        "title": "Freightliner 2013",
+        "caption": "低板车作业中",
+        "alt": "Freightliner 2013 – 低板车作业中"
+      },
+      {
+        "image": "/public/assets/img/galeria/4.jpg",
+        "full": "/public/assets/img/galeria/4.jpg",
+        "title": "International",
+        "caption": "行驶在公路上",
+        "alt": "International – 行驶在公路上"
+      },
+      {
+        "image": "/public/assets/img/galeria/5.jpg",
+        "full": "/public/assets/img/galeria/5.jpg",
+        "title": "Kenworth T680",
+        "caption": "夜间ONE集装箱",
+        "alt": "Kenworth T680 – 夜间ONE集装箱"
+      },
+      {
+        "image": "/public/assets/img/galeria/6.jpg",
+        "full": "/public/assets/img/galeria/6.jpg",
+        "title": "牵引车",
+        "caption": "院内日落",
+        "alt": "牵引车 – 院内日落"
+      }
+    ]
+  
+}

@@ -1,0 +1,55 @@
+{
+  
+    "breadcrumb": {
+      "home": "Inicio",
+      "title": "Galería"
+    },
+    "heading": "Nuestra Flota, Tu Solución Logística",
+    "subheading": "Conoce las unidades que respaldan tu carga.",
+    "description": "Unidades en óptimas condiciones para carga contenerizada, suelta y sobredimensionada. Monitoreo 24/7 y respaldo mecánico para que cada entrega llegue a tiempo.",
+    "items": [
+      {
+        "image": "/public/assets/img/galeria/1.jpg",
+        "full": "/public/assets/img/galeria/1.jpg",
+        "title": "Kenworth T680 2015",
+        "caption": "Caja seca en patio",
+        "alt": "Kenworth T680 2015 – Caja seca en patio"
+      },
+      {
+        "image": "/public/assets/img/galeria/2.jpg",
+        "full": "/public/assets/img/galeria/2.jpg",
+        "title": "International 2017",
+        "caption": "Full con contenedor ONE",
+        "alt": "International 2017 – Full con contenedor ONE"
+      },
+      {
+        "image": "/public/assets/img/galeria/3.jpg",
+        "full": "/public/assets/img/galeria/3.jpg",
+        "title": "Freightliner 2013",
+        "caption": "Lowboy en operación",
+        "alt": "Freightliner 2013 – Lowboy en operación"
+      },
+      {
+        "image": "/public/assets/img/galeria/4.jpg",
+        "full": "/public/assets/img/galeria/4.jpg",
+        "title": "International",
+        "caption": "En carretera",
+        "alt": "International – En carretera"
+      },
+      {
+        "image": "/public/assets/img/galeria/5.jpg",
+        "full": "/public/assets/img/galeria/5.jpg",
+        "title": "Kenworth T680",
+        "caption": "Contenedor ONE nocturno",
+        "alt": "Kenworth T680 – Contenedor ONE nocturno"
+      },
+      {
+        "image": "/public/assets/img/galeria/6.jpg",
+        "full": "/public/assets/img/galeria/6.jpg",
+        "title": "Tractos",
+        "caption": "Atardecer en patio",
+        "alt": "Tractos – Atardecer en patio"
+      }
+    ]
+  
+}

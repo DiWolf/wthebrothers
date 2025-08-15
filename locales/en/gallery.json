@@ -1,0 +1,55 @@
+{
+  
+    "breadcrumb": {
+      "home": "Home",
+      "title": "Gallery"
+    },
+    "heading": "Our Fleet, Your Logistics Solution",
+    "subheading": "Meet the units that back your cargo.",
+    "description": "Units in top condition for containerized, loose, and oversized cargo. 24/7 monitoring and mechanical backup to ensure every delivery arrives on time.",
+    "items": [
+      {
+        "image": "/public/assets/img/galeria/1.jpg",
+        "full": "/public/assets/img/galeria/1.jpg",
+        "title": "Kenworth T680 2015",
+        "caption": "Dry box in yard",
+        "alt": "Kenworth T680 2015 – Dry box in yard"
+      },
+      {
+        "image": "/public/assets/img/galeria/2.jpg",
+        "full": "/public/assets/img/galeria/2.jpg",
+        "title": "International 2017",
+        "caption": "Full with ONE container",
+        "alt": "International 2017 – Full with ONE container"
+      },
+      {
+        "image": "/public/assets/img/galeria/3.jpg",
+        "full": "/public/assets/img/galeria/3.jpg",
+        "title": "Freightliner 2013",
+        "caption": "Lowboy in operation",
+        "alt": "Freightliner 2013 – Lowboy in operation"
+      },
+      {
+        "image": "/public/assets/img/galeria/4.jpg",
+        "full": "/public/assets/img/galeria/4.jpg",
+        "title": "International",
+        "caption": "On the road",
+        "alt": "International – On the road"
+      },
+      {
+        "image": "/public/assets/img/galeria/5.jpg",
+        "full": "/public/assets/img/galeria/5.jpg",
+        "title": "Kenworth T680",
+        "caption": "ONE container at night",
+        "alt": "Kenworth T680 – ONE container at night"
+      },
+      {
+        "image": "/public/assets/img/galeria/6.jpg",
+        "full": "/public/assets/img/galeria/6.jpg",
+        "title": "Tractors",
+        "caption": "Sunset in yard",
+        "alt": "Tractors – Sunset in yard"
+      }
+    ]
+  
+}
