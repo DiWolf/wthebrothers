@@ -85,7 +85,7 @@
                                     {% set services = __('home_two_service.items') %}
                                     {% for service in services %}
                                         <div class="service-card">
-                                            <img src="assets/img/service/serv-carga-contenedor.jpg" alt="Carga Contenerizada">
+                                            <img src="{{service.img}}" alt="Carga Contenerizada">
                                                 <div class="service-caption">
                                                     <h3>{{ service.title }}</h3>
                                                     <p>{{ service.desc }}</p>

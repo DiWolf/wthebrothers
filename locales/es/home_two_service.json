@@ -6,31 +6,31 @@
       {
         "title": "Carga contenerizada",
         "desc": "Transporte especializado para contenedores, con unidades sencillo y full, asegurando que tu carga llegue a tiempo y en perfectas condiciones.",
-        "img": "assets/img/service/serv-carga-contenedor.jpg",
+        "img": "/public/assets/img/servicios/01.png",
         "alt": "Carga Contenerizada"
       },
       {
         "title": "Carga suelta y exceso de dimensiones",
         "desc": "Soluciones seguras para mercancía fuera de medidas estándar o sin empaquetado en contenedor, adaptándonos a las necesidades de tu operación.",
-        "img": "assets/img/service/serv-carga-suelta.jpg",
+        "img": "/public/assets/img/servicios/02.png",
         "alt": "Carga Suelta"
       },
       {
         "title": "Monitoreo 24/7",
         "desc": "Supervisión constante de tus envíos en tiempo real, para que tengas la tranquilidad de saber dónde está tu mercancía en todo momento.",
-        "img": "assets/img/service/serv-monitoreo.jpg",
+        "img": "/public/assets/img/servicios/04.jpg",
         "alt": "Monitoreo 24/7"
       },
       {
         "title": "Patio de desconsolidación y vigilancia",
         "desc": "Instalaciones seguras y vigiladas las 24 horas para el manejo y resguardo de tu carga, brindando confianza y respaldo en cada operación.",
-        "img": "assets/img/service/serv-patio.jpg",
+        "img": "/public/assets/img/servicios/05.jpg",
         "alt": "Patio de desconsolidación"
       },
       {
         "title": "Respuesta inmediata ante imprevistos",
         "desc": "Si surge un problema mecánico, enviamos una unidad de apoyo de forma inmediata para que tu mercancía llegue en tiempo y forma.",
-        "img": "assets/img/service/serv-respuesta.jpg",
+        "img": "/public/assets/img/servicios/06.png",
         "alt": "Respuesta ante imprevistos"
       }
     ]

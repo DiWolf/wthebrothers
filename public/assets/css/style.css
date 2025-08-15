@@ -327,8 +327,10 @@ section {
   position: relative;
 }
 #inner_area_banner{
-    background-image: url('../img/common/inner_banner.png');
+    /* background-image: url('../img/common/inner_banner.png'); */
+    background-color: #071D2A;
     padding:120px 0;
+    color: #000;
 }
 .inner_banner_text h2{
     color: #fff;
@@ -2301,7 +2303,8 @@ padding-top: 50px;
 
 /* --Footer Area Start-- */
 #footer_area{
-  background-color: #1e3446f5;
+  /* background-color: #1e3446f5; */
+    background-color: #21425A;
   padding: 120px 0;
 }
 .footer_wedget h4{
