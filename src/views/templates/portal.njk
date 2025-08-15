@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta
             name="description"
-            content="Transtic is HTML template created for logistics, Transtic, transportation companies and small freight business">
+            content="The Brothers Logistic: transporte de mercancías confiable y puntual. Carga contenerizada y suelta, exceso de
+                dimensiones, monitoreo 24/7 y patio de desconsolidación con vigilancia 24 horas. Unidades en óptimas condiciones y apoyo
+                ante fallas para garantizar entregas en tiempo y forma.">
         <meta
-            name="Keywords"
-            content="cargo, corporate, delivery, freight, logistic storage, logistics, moving company, packaging, shipment, shipping,
-                transport, transportation, Transtic, trucks">
-        <meta
-        name="author" content="AnditThemes"> <!-- Bootstrap Min CSS -->
+            name="keywords"
+            content="transporte de mercancías, logística, fletes, carga contenerizada, carga suelta, exceso de dimensiones, monitoreo
+                24/7, patio de desconsolidación, vigilancia 24 horas, distribución, tractocamiones, The Brothers Logistic">
+        <meta name="author" content="The Brothers Logistic">
         <link
         rel="stylesheet" href="/public/assets/css/bootstrap.min.css"/> <!-- Animate Min CSS -->
         <link
@@ -146,7 +147,6 @@
                 content: "";
                 position: absolute;
                 inset: 0;
-             
                 pointer-events: none;
             }
         </style>
@@ -189,7 +189,7 @@
                 <div class="main-box">
                     <div class="logo-box">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo.png" alt="" title="Tronis">
+                            <a href="/"><img src="/public/assets/img/logo2.png" alt="" title="The Brothers Logistic">
                             </a>
                         </div>
                     </div>
@@ -197,22 +197,21 @@
                     <div class="nav-outer">
                         <nav class="nav main-menu">
                             <ul class="navigation">
-                                <li class="current">
+                                <li class="{% if currentPath == '/' %}current{% endif %}">
                                     <a href="/">{{ __('nav.home') }}</a>
                                 </li>
-                                <li>
+                                <li class="{% if currentPath == '/nosotros' or currentPath.startsWith('/nosotros/') %}current{% endif %}">
                                     <a href="/nosotros">{{ __('nav.about') }}</a>
                                 </li>
-                                <li>
+                                <li class="{% if currentPath == '/servicios' or currentPath.startsWith('/servicios/') %}current{% endif %}">
                                     <a href="/servicios">{{ __('nav.services') }}</a>
                                 </li>
-                                <li>
+                                <li class="{% if currentPath == '/galeria' or currentPath.startsWith('/galeria/') %}current{% endif %}">
                                     <a href="/galeria">{{ __('nav.gallery') }}</a>
                                 </li>
-                                <li>
+                                <li class="{% if currentPath == '/contacto' or currentPath.startsWith('/contacto/') %}current{% endif %}">
                                     <a href="/contacto">{{ __('nav.contact') }}</a>
                                 </li>
-                                <li></li>
                             </ul>
                         </nav>
                         <!-- Main Menu End-->
@@ -223,7 +222,7 @@
                                 <option value="en">{{ __('nav.lang.en') }}</option>
                                 <option value="zh">{{ __('nav.lang.zh') }}</option>
                             </select>
-                            <a href="#" class="btn btn-theme display-none-btn">
+                            <a href="/contacto" class="btn btn-theme display-none-btn">
                                 <span class="btn-title">{{ __('nav.quote') }}</span>
                             </a>
                             <!-- Mobile Nav toggler -->
@@ -242,7 +241,7 @@
                 <nav class="menu-box">
                     <div class="upper-box">
                         <div class="nav-logo">
-                            <a href="index.html"><img src="images/logo-2.png" alt="" title="Fesho">
+                            <a href="/"><img src="images/logo-2.png" alt="" title="Fesho">
                             </a>
                         </div>
                         <div class="close-btn">
