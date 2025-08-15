@@ -7,6 +7,9 @@ export class HomeController {
   contact = async (req: Request, res: Response) => {
     res.render("contact.njk");
   };
+  galeria = async (req: Request, res: Response) => {
+    res.render("unidades.njk");
+  };
   contactSubmit = async (req: Request, res: Response) => {
     try {
       const payload = {

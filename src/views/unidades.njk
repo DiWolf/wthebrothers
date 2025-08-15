@@ -1,0 +1,191 @@
+{% extends "templates/portal.njk" %}
+{% block content %}
+    <!-- Inner Banner Area Strat -->
+    <section id="inner_area_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner_banner_text">
+                        <h2>Galeria</h2>
+                        <ul>
+                            <li>
+                                <a href="/">Inicio</a>
+                            </li>
+                            <li>></li>
+                            <li class="active">Galeria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Area Strat -->
+    <!-- GALERÍA -->
+    <section id="gallery_area" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_heading_center">
+                        <h2>Nuestra Flota, Tu Solución Logística</h2>
+                        <p class="mb-2">Conoce las unidades que respaldan tu carga.</p>
+                        <p>Unidades en óptimas condiciones para carga contenerizada, suelta y sobredimensionada. Monitoreo 24/7 y respaldo
+                            mecánico para que cada entrega llegue a tiempo.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="gallery-grid">
+                <!-- Ítem -->
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/1.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="Kenworth T680 2015 – Caja seca en patio"
+                    data-full="/public/assets/img/galeria/1.jpg">
+                    <img
+                        src="/public/assets/img/galeria/1.jpg"
+                        alt="Kenworth T680 2015 – Caja seca en patio"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>Kenworth T680 2015</strong>
+                        <small>Caja seca en patio</small>
+                    </span>
+                </a>
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/2.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="International 2017 – Full con contenedor ONE"
+                    data-full="/public/assets/img/galeria/2.jpg">
+                    <img
+                        src="/public/assets/img/galeria/2.jpg"
+                        alt="International 2017 – Full con contenedor ONE"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>International 2017</strong>
+                        <small>Full con contenedor ONE</small>
+                    </span>
+                </a>
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/3.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="Freightliner 2013 – Lowboy en operación"
+                    data-full="/public/assets/img/galeria/3.jpg">
+                    <img
+                        src="/public/assets/img/galeria/3.jpg"
+                        alt="Freightliner 2013 – Lowboy en operación"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>Freightliner 2013</strong>
+                        <small>Lowboy en operación</small>
+                    </span>
+                </a>
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/4.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="International – En carretera"
+                    data-full="/public/assets/img/galeria/4.jpg">
+                    <img
+                        src="/public/assets/img/galeria/4.jpg"
+                        alt="International – En carretera"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>International</strong>
+                        <small>En carretera</small>
+                    </span>
+                </a>
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/5.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="Kenworth T680 – Contenedor ONE nocturno"
+                    data-full="/public/assets/img/galeria/5.jpg">
+                    <img
+                        src="/public/assets/img/galeria/5.jpg"
+                        alt="Kenworth T680 – Contenedor ONE nocturno"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>Kenworth T680</strong>
+                        <small>Contenedor ONE nocturno</small>
+                    </span>
+                </a>
+                <a
+                    class="gallery-item"
+                    href="/public/assets/img/galeria/6.jpg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lightboxModal"
+                    data-caption="Tractos – Atardecer en patio"
+                    data-full="/public/assets/img/galeria/6.jpg">
+                    <img
+                        src="/public/assets/img/galeria/6.jpg"
+                        alt="Tractos – Atardecer en patio"
+                        class="gallery-img"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600">
+                    <span class="gallery-overlay">
+                        <strong>Tractos</strong>
+                        <small>Atardecer en patio</small>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- MODAL Lightbox (Bootstrap 5) -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-black">
+                <button type="button" class="btn-close btn-close-white ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body p-0">
+                    <img id="lightboxImg" src="" alt="" class="w-100 d-block">
+                </div>
+                <div class="px-3 py-2 text-white-50" id="lightboxCaption"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Area End -->
+    <!-- Inner Banner Area End -->
+    <script>
+        // Lightbox: coloca la imagen y el caption en el modal
+        document.querySelectorAll('.gallery-item').forEach(a => {
+            a.addEventListener('click', (e) => {
+                const full = a.dataset.full || a.href;
+                const cap = a.dataset.caption || '';
+                const img = document.getElementById('lightboxImg');
+                const text = document.getElementById('lightboxCaption');
+                img.src = full;
+                img.alt = cap;
+                text.textContent = cap;
+            });
+        });
+    </script>
+{% endblock %}
