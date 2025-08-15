@@ -1,0 +1,63 @@
+{
+  
+    "banner": {
+      "title": "Services",
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Services"
+      }
+    },
+    "heading": "The best solution for your logistics",
+    "subheading": "At The Brothers Logistic we handle your transportation end-to-end with personalized attention, well‑maintained units, and immediate response to contingencies.",
+    "items": [
+      {
+        "slug": "carga_contenedorizada",
+        "title": "Containerized cargo transport",
+        "description": "Safe and on‑time container moves with trained drivers and continuous tracking.",
+        "icon": "/public/assets/img/icon/containers.svg",
+        "image": "/public/assets/img/servicios/01.png",
+        "alt": "Truck hauling a container"
+      },
+      {
+        "slug": "carga_suelta",
+        "title": "Loose cargo transport",
+        "description": "We move non‑containerized goods optimizing routes, loading, and delivery times.",
+        "icon": "/public/assets/img/icon/loose-cargo.svg",
+        "image": "/public/assets/img/servicios/02.png",
+        "alt": "Truck with loose cargo"
+      },
+      {
+        "slug": "exceso_dimensiones",
+        "title": "Oversized cargo",
+        "description": "Experts in over‑dimensional loads: route planning, escorts, and regulatory compliance.",
+        "icon": "/public/assets/img/icon/oversize.svg",
+        "image": "/public/assets/img/servicios/03.png",
+        "alt": "Oversized equipment on a flatbed"
+      },
+      {
+        "slug": "monitoreo_24_7",
+        "title": "24/7 monitoring",
+        "description": "Real‑time tracking for full visibility and control on every shipment.",
+        "icon": "/public/assets/img/icon/monitoring.svg",
+        "image": "/public/assets/img/servicios/04.jpg",
+        "alt": "Monitoring screens"
+      },
+      {
+        "slug": "patio_desconsolidacion",
+        "title": "Deconsolidation yard & 24h security",
+        "description": "Secure yard for handling and storage with round‑the‑clock surveillance.",
+        "icon": "/public/assets/img/icon/yard.svg",
+        "image": "/public/assets/img/servicios/05.jpg",
+        "alt": "Logistics yard"
+      },
+      {
+        "slug": "unidades_apoyo",
+        "title": "Backup units for breakdowns",
+        "description": "If something happens on the road, a support unit is dispatched to meet your deadline.",
+        "icon": "/public/assets/img/icon/support-truck.svg",
+        "image": "/public/assets/img/servicios/06.png",
+        "alt": "Support truck on the road"
+      }
+    ]
+  
+}

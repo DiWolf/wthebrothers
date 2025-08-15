@@ -1,0 +1,63 @@
+{
+  
+    "banner": {
+      "title": "服务",
+      "breadcrumb": {
+        "home": "首页",
+        "current": "服务"
+      }
+    },
+    "heading": "为您提供最佳物流解决方案",
+    "subheading": "在 The Brothers Logistic，我们提供端到端运输服务：专属对接、车辆维护良好，并在突发状况下快速响应。",
+    "items": [
+      {
+        "slug": "carga_contenedorizada",
+        "title": "集装箱运输",
+        "description": "安全准时的集装箱运输，专业司机与全程跟踪。",
+        "icon": "/public/assets/img/icon/containers.svg",
+        "image": "/public/assets/img/servicios/01.png",
+        "alt": "集装箱牵引车"
+      },
+      {
+        "slug": "carga_suelta",
+        "title": "散货运输",
+        "description": "承运非集装箱化货物，优化线路与装卸、交付时间。",
+        "icon": "/public/assets/img/icon/loose-cargo.svg",
+        "image": "/public/assets/img/servicios/02.png",
+        "alt": "散货卡车"
+      },
+      {
+        "slug": "exceso_dimensiones",
+        "title": "超限运输",
+        "description": "超大超重件专家：线路规划、护送与法规合规。",
+        "icon": "/public/assets/img/icon/oversize.svg",
+        "image": "/public/assets/img/servicios/03.png",
+        "alt": "超限设备平板运输"
+      },
+      {
+        "slug": "monitoreo_24_7",
+        "title": "7×24 小时监控",
+        "description": "实时定位与可视化，全面掌控每票货物。",
+        "icon": "/public/assets/img/icon/monitoring.svg",
+        "image": "/public/assets/img/servicios/04.jpg",
+        "alt": "监控屏幕"
+      },
+      {
+        "slug": "patio_desconsolidacion",
+        "title": "拆箱堆场与 24 小时安保",
+        "description": "安全堆场用于操作与货物寄存，全天候安保值守。",
+        "icon": "/public/assets/img/icon/yard.svg",
+        "image": "/public/assets/img/servicios/05.jpg",
+        "alt": "物流堆场"
+      },
+      {
+        "slug": "unidades_apoyo",
+        "title": "故障应急支援车辆",
+        "description": "遇到突发故障立即派出支援车辆，确保按时交付。",
+        "icon": "/public/assets/img/icon/support-truck.svg",
+        "image": "/public/assets/img/servicios/06.png",
+        "alt": "道路救援卡车"
+      }
+    ]
+  
+}

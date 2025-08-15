@@ -11,8 +11,11 @@ export class HomeController {
     res.render("unidades.njk");
   };
   nosotros = async (req: Request, res: Response) => {
-    res.render("nosotros.njk")
-  }
+    res.render("nosotros.njk");
+  };
+  servicios = async (req: Request, res: Response) => {
+    res.render("servicios.njk");
+  };
   contactSubmit = async (req: Request, res: Response) => {
     try {
       const payload = {

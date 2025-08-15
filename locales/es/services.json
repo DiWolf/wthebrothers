@@ -1,0 +1,63 @@
+{
+  
+    "banner": {
+      "title": "Servicios",
+      "breadcrumb": {
+        "home": "Inicio",
+        "current": "Servicios"
+      }
+    },
+    "heading": "La mejor solución para tu logística",
+    "subheading": "En The Brothers Logistic resolvemos tus necesidades de transporte de principio a fin, con atención personalizada, unidades en óptimas condiciones y respuesta inmediata ante imprevistos.",
+    "items": [
+      {
+        "slug": "carga_contenedorizada",
+        "title": "Transporte de carga contenerizada",
+        "description": "Traslado seguro y puntual de contenedores, con operadores capacitados y seguimiento continuo.",
+        "icon": "/public/assets/img/icon/containers.svg",
+        "image": "/public/assets/img/servicios/01.png",
+        "alt": "Tracto con contenedor en patio"
+      },
+      {
+        "slug": "carga_suelta",
+        "title": "Transporte de carga suelta",
+        "description": "Movemos mercancía no contenerizada optimizando rutas, tiempos de carga y entrega.",
+        "icon": "/public/assets/img/icon/loose-cargo.svg",
+        "image": "/public/assets/img/servicios/02.png",
+        "alt": "Camión con carga suelta"
+      },
+      {
+        "slug": "exceso_dimensiones",
+        "title": "Carga de exceso de dimensiones",
+        "description": "Especialistas en sobredimensionados: planeación de ruta, escoltas y cumplimiento normativo.",
+        "icon": "/public/assets/img/icon/oversize.svg",
+        "image": "/public/assets/img/servicios/03.png",
+        "alt": "Equipo sobredimensionado en plataforma"
+      },
+      {
+        "slug": "monitoreo_24_7",
+        "title": "Monitoreo 24/7",
+        "description": "Seguimiento en tiempo real para mayor visibilidad y control de cada embarque.",
+        "icon": "/public/assets/img/icon/monitoring.svg",
+        "image": "/public/assets/img/servicios/04.jpg",
+        "alt": "Pantallas de monitoreo"
+      },
+      {
+        "slug": "patio_desconsolidacion",
+        "title": "Patio de desconsolidación y vigilancia 24 h",
+        "description": "Espacio seguro para maniobras y resguardo, con vigilancia permanente.",
+        "icon": "/public/assets/img/icon/yard.svg",
+        "image": "/public/assets/img/servicios/05.jpg",
+        "alt": "Patio de maniobras"
+      },
+      {
+        "slug": "unidades_apoyo",
+        "title": "Unidades de apoyo por fallas mecánicas",
+        "description": "Si surge un imprevisto, enviamos una unidad de respaldo para cumplir en tiempo y forma.",
+        "icon": "/public/assets/img/icon/support-truck.svg",
+        "image": "/public/assets/img/servicios/06.png",
+        "alt": "Unidad de apoyo en carretera"
+      }
+    ]
+  
+}
