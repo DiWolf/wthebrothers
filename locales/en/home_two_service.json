@@ -6,31 +6,31 @@
       {
         "title": "Containerized cargo",
         "desc": "Specialized container transport with single and double (full) units, ensuring your cargo arrives on time and in perfect condition.",
-        "img": "assets/img/service/serv-carga-contenedor.jpg",
+        "img": "/public/assets/img/servicios/01.png",
         "alt": "Containerized Cargo"
       },
       {
         "title": "Break bulk & oversized cargo",
         "desc": "Secure solutions for non‑standard dimensions or non‑containerized shipments, fully adapted to your operation’s needs.",
-        "img": "assets/img/service/serv-carga-suelta.jpg",
+        "img": "/public/assets/img/servicios/02.png",
         "alt": "Break Bulk Cargo"
       },
       {
         "title": "24/7 monitoring",
         "desc": "Real‑time supervision of your shipments so you always know where your cargo is and how it’s doing.",
-        "img": "assets/img/service/serv-monitoreo.jpg",
+        "img": "/public/assets/img/servicios/04.jpg",
         "alt": "24/7 Monitoring"
       },
       {
         "title": "Deconsolidation yard & security",
         "desc": "Secure facilities with 24‑hour surveillance for handling and safeguarding your cargo, providing confidence in every operation.",
-        "img": "assets/img/service/serv-patio.jpg",
+        "img": "/public/assets/img/servicios/05.jpg",
         "alt": "Deconsolidation Yard"
       },
       {
         "title": "Immediate response to contingencies",
         "desc": "If a mechanical issue arises, we dispatch a support unit immediately to keep your delivery on schedule.",
-        "img": "assets/img/service/serv-respuesta.jpg",
+        "img": "/public/assets/img/servicios/06.png",
         "alt": "Contingency Response"
       }
     ]

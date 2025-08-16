@@ -6,31 +6,31 @@
       {
         "title": "集装箱运输",
         "desc": "面向集装箱的专业运输，提供单拖与双拖（full）车辆，确保您的货物准时并以最佳状态抵达。",
-        "img": "assets/img/service/serv-carga-contenedor.jpg",
+        "img": "/public/assets/img/servicios/01.png",
         "alt": "集装箱运输"
       },
       {
         "title": "散杂货与超限货物",
         "desc": "为非标准尺寸或非集装箱包装的货物提供安全解决方案，灵活适配您的运营需求。",
-        "img": "assets/img/service/serv-carga-suelta.jpg",
+        "img": "/public/assets/img/servicios/02.png",
         "alt": "散杂货运输"
       },
       {
         "title": "7×24 小时监控",
         "desc": "全程实时追踪，让您随时掌握货物位置与状态，安心无忧。",
-        "img": "assets/img/service/serv-monitoreo.jpg",
+        "img": "/public/assets/img/servicios/04.jpg",
         "alt": "全天候监控"
       },
       {
         "title": "拆箱堆场与安保",
         "desc": "24 小时安保的安全设施，用于货物操作与临时保管，为每一票业务提供保障。",
-        "img": "assets/img/service/serv-patio.jpg",
+        "img": "/public/assets/img/servicios/05.jpg",
         "alt": "拆箱堆场"
       },
       {
         "title": "突发情况即时响应",
         "desc": "如遇车辆故障等意外，我们立即派出支援车辆，确保按时交付不掉链。",
-        "img": "assets/img/service/serv-respuesta.jpg",
+        "img": "/public/assets/img/servicios/06.png",
         "alt": "应急响应"
       }
     ]
