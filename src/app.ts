@@ -17,8 +17,6 @@ const localesPath = path.join(__dirname, "../locales");
 const app = express();
 // Servir archivos estáticos desde /public
 
-app.use("/public", express.static(path.join(__dirname, "..", "public")));
-
 app.use(cookieParser()); // <-- antes que i18n.init
 i18n.configure({
   locales: ["es", "en", "zh"],
@@ -45,10 +43,11 @@ app.use((req, res, next) => {
   next();
 });
 app.set("view engine", "njk");
-const env = nunjucks.configure("src/views", {
+
+const env = nunjucks.configure(path.join(__dirname, ".", "views"), {
   autoescape: true,
   express: app,
-  watch: true,
+   watch: process.env.NODE_ENV !== "production", // watch solo en dev
 });
 
 // Registrar como filtro para usar en la vistas
