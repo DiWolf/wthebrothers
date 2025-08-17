@@ -18,12 +18,7 @@ const app = express();
 // Servir archivos estáticos desde /public
 
 app.use("/public", express.static(path.join(__dirname, "..", "public")));
-// Configuración de vistas con Nunjucks
-nunjucks.configure(path.join(__dirname, ".", "views"), {
-  autoescape: true,
-  express: app,
-  watch: true,
-});
+
 app.use(cookieParser()); // <-- antes que i18n.init
 i18n.configure({
   locales: ["es", "en", "zh"],
