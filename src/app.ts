@@ -51,7 +51,7 @@ const env = nunjucks.configure("src/views", {
   watch: true,
 });
 
-// Registrar como filtro para usar en la vista
+// Registrar como filtro para usar en la vistas
 env.addFilter("startsWith", function (value: any, prefix: string) {
   if (typeof value !== "string") return false;
   return value.startsWith(prefix);
